@@ -1,0 +1,73 @@
+html {
+    height: 100%;
+    background-image: linear-gradient(#ff6161, #ff768c);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #0f222d;
+    background-size: auto;
+}
+
+.container {
+    max-width: 22rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 2rem;
+
+}
+
+form {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 19rem;
+    height: 2.05rem;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    float: left;
+}
+
+button {
+    font-size: 1.15rem;
+    font-weight: bold; 
+    background-color: white;
+    outline: none;
+    border: none;
+    color: deepskyblue;
+    width: auto;
+    height: 2.15rem;
+    cursor: pointer;
+}
+
+div.task-list {
+    background-color: white;
+    margin-top: 1rem;
+    padding: 0.5rem 2.5rem 1rem 0rem;
+    /*display: none*/
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    border-bottom: 0.1px solid deepskyblue;
+    padding-bottom: 1.5rem;
+    padding-top: 0.5rem;
+    font-family: sans-serif;
+}
+
+label.clear {
+    font-size: 1.15rem;
+    text-align: right;
+    float: right;
+    color: deepskyblue;
+    cursor: pointer;
+}
