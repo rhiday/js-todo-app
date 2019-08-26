@@ -1,24 +1,23 @@
 html {
     height: 100%;
     background-image: linear-gradient(#ff6161, #ff768c);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #0f222d;
     background-size: auto;
 }
 
 .container {
-    max-width: 22rem;
-    margin: auto;
+    width: 20rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin: auto;
 }
 
 h1 {
-    text-align: center;
     color: white;
+    text-align: center;
     margin-bottom: 2rem;
-
 }
 
 form {
@@ -26,31 +25,31 @@ form {
 }
 
 input[type="text"] {
-    width: 19rem;
-    height: 2.05rem;
     outline: none;
     border: none;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    width: 16rem;
+    height: 3rem;
     float: left;
 }
 
 button {
-    font-size: 1.15rem;
-    font-weight: bold; 
-    background-color: white;
+    float: right;
+    width: 3.85rem;
+    height: 3.1rem;
     outline: none;
     border: none;
-    color: deepskyblue;
-    width: auto;
-    height: 2.15rem;
+    font-size: 1.2rem;
+    font-weight: bold; 
+    color: #53BDFF;
     cursor: pointer;
 }
 
-div.task-list {
+.task-list {
     background-color: white;
-    margin-top: 1rem;
-    padding: 0.5rem 2.5rem 1rem 0rem;
-    /*display: none*/
+    margin-top: 1.5rem;
+    padding: 0.3rem 3rem 1rem 0rem;
+    display: none;
 }
 
 ul {
@@ -58,16 +57,23 @@ ul {
 }
 
 li {
-    border-bottom: 0.1px solid deepskyblue;
-    padding-bottom: 1.5rem;
+    border-bottom: #53BDFF solid 0.08rem;
+    padding-bottom: 0.8rem;
     padding-top: 0.5rem;
-    font-family: sans-serif;
 }
 
-label.clear {
-    font-size: 1.15rem;
-    text-align: right;
-    float: right;
-    color: deepskyblue;
+.delete {
+    color: white;
+    background-color: #ff6161;
+    padding: 0rem 0.3rem 0.1rem 0.3rem;
     cursor: pointer;
 }
+
+.clear {
+    float: right;
+    color: #53BDFF;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
